@@ -3,7 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      #uri: mongodb://localhost:27017/movie_db
-      uri: mongodb://mongodbservice:27017/movie_db
+      uri: mongodb://localhost:27017/movie_db
+      #uri: mongodb://mongodbservice:27017/movie_db
   application:
     name: user-movie-service
