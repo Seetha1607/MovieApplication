@@ -5,7 +5,8 @@ import com.bej.userauthenticationservice.domain.User;
 import com.bej.userauthenticationservice.exception.InvalidCredentialsException;
 import com.bej.userauthenticationservice.exception.UserAlreadyExistsException;
 import com.bej.userauthenticationservice.security.SecurityTokenGenerator;
-import com.bej.userauthenticationservice.UserService;
+
+import com.bej.userauthenticationservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
