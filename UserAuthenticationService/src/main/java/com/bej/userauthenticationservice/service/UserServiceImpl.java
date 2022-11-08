@@ -1,4 +1,4 @@
-package com.bej.userauthenticationservice;
+package com.bej.userauthenticationservice.service;
 
 
 import com.bej.userauthenticationservice.domain.User;
